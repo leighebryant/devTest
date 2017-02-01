@@ -1,6 +1,6 @@
 @import 'partials/variables';
 @import 'partials/reset';
-@import 'carousel';
+@import 'features';
 @import 'footer';
 @import 'info';
 @import 'nav';
@@ -8,4 +8,23 @@
 
 * {
     box-sizing: border-box;
+}
+
+h1{
+font-family: $main-font;
+color: $dark-grey;
+font-size: 52px;
+font-weight: 300;
+line-height: 58px;
+padding-bottom: 20px;
+}
+
+h3{
+font-family: $main-font;
+color: $grey;
+font-size: 22px;
+font-weight: 300;
+line-height: 32px;
+max-width: 650px;
+margin: 0px 220px;
 }

@@ -54,7 +54,14 @@ table {
 #main {
   background-color: #ffffff;
   height: 935px;
-  width: 100%; }
+  width: 85%;
+  padding-top: 200px;
+  text-align: center;
+  margin: 0 auto; }
+
+#main-image {
+  width: 100%;
+  margin: 50px 0px; }
 
 #nav {
   background-color: #fff;
@@ -87,5 +94,22 @@ table {
 
 * {
   box-sizing: border-box; }
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: #43484d;
+  font-size: 52px;
+  font-weight: 300;
+  line-height: 58px;
+  padding-bottom: 20px; }
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  color: #5e6977;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 32px;
+  max-width: 650px;
+  margin: 0px 220px; }
 
 /*# sourceMappingURL=main.css.map */

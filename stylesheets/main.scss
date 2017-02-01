@@ -1,10 +1,11 @@
 @import 'partials/variables';
 @import 'partials/reset';
+@import 'carousel';
+@import 'footer';
+@import 'info';
+@import 'nav';
+@import 'pricing';
 
-*{
-  box-sizing: border-box;
-}
-
-button{
-  
+* {
+    box-sizing: border-box;
 }

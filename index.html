@@ -4,12 +4,14 @@
     <title>module</title>
     <link rel='stylesheet' href='stylesheets/main.css'>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="javascript/slick-1.6.0/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="javascript/slick-1.6.0/slick/slick-theme.css"/>
   </head>
   <body>
     <header>
       <div id='nav'>
         <ol class='navbar'>
-          <li><img src='images/header-logo.svg' id='header-logo'></li>
+          <li><a href='#main'><img src='images/header-logo.svg' id='header-logo'></a></li>
           <li><a href='#features'>Features</a></li>
           <li><a href='#'>Pricing</a></li>
           <li><a href='#'>Learn more</a></li>
@@ -50,6 +52,23 @@
 
     <section>
       <div id='features'>
+        <div id='laptop-image'>
+          <img src='images/laptop.png'>
+        </div>
+        <div id='carousel'>
+          <div>
+            <h2>Powerful Extensions</h2>
+            <p>This article is floated online with an aim to help you find the best dvd printing solution. Dvd printing is an important feature</p>
+            <div class='learn-more'>
+              <a href='#'>Learn More<img src='images/blue-arrow.svg' class='blue-arrow'></a>
+            </div>
+          </div>
+          <div>your content</div>
+          <div>your content</div>
+          <div>your content</div>
+          <div>your content</div>
+        </div>
+        <button type="button" class="slick-next">Next</button>
       </div>
     </section>
 
@@ -66,7 +85,7 @@
   </body>
   <footer>
     <script src="javascript/jquery-3.1.1.min.js"></script>
-
     <script src='javascript/main.js'></script>
+    <script type="text/javascript" src="javascript/slick-1.6.0/slick/slick.min.js"></script>
   </footer>
 </html>

@@ -12,3 +12,12 @@ $(function() {
     }
   });
 });
+
+$(document).ready(function(){
+  $('#carousel').slick({
+    accessibility: true,
+    dots:true,
+    prevArrow: $('.prev'),
+
+  });
+});

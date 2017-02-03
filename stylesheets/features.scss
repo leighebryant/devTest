@@ -35,3 +35,14 @@
         margin: -1px 10px;
     }
 }
+
+@media (max-width: 830px){
+  #features{
+    flex-direction: column;
+  }
+
+  #carousel{
+    width: 70%;
+    margin: 5% 15%;
+  }
+}

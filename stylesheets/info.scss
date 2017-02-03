@@ -14,9 +14,10 @@
 
 #info-boxes {
     display: flex;
+    flex-direction: row;
+
 
     .info-box {
-        flex-direction: row;
         height: 100px;
         margin: 20px;
         width: 29%;
@@ -30,4 +31,16 @@
     .icon-info {
         margin-left: 90px;
     }
+}
+
+@media (max-width: 1024px){
+
+  #info-boxes{
+    flex-direction: column;
+
+    .info-box{
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
 }

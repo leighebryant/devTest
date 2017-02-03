@@ -121,3 +121,35 @@ h1.menu {
         transition: 0.5s ease-in-out;
     }
 }
+@media (max-width: 830px) {
+    #pricing {
+        height: auto;
+    }
+
+    #pricing-menu {
+        flex-direction: column;
+        width: 90%;
+
+        #basic,
+        #business,
+        #pro {
+            width: 100%;
+            margin-top: 1px;
+        }
+
+        #basic {
+            border-top-left-radius: $border-radius;
+            border-top-right-radius: $border-radius;
+            border-bottom-left-radius: 0;
+        }
+
+        #business {
+            border-top-right-radius: 0;
+            border-bottom-left-radius: $border-radius;
+        }
+    }
+    .list{
+      width: 80%;
+      margin: 0 auto;
+    }
+}

@@ -1,134 +1,123 @@
-#pricing{
-background-color: $light-grey;
-height: 900px;
-padding-top: 70px;
-width: 100%;
+#pricing {
+    background-color: $light-grey;
+    height: 900px;
+    padding-top: 70px;
+    width: 100%;
 }
 
-h1.menu{
-  padding-bottom: 5px;
-  margin-top: 0px;
+h1.menu {
+    padding-bottom: 5px;
+    margin-top: 0;
 }
 
-.blue{
-  color: $white;
+.blue {
+    color: $white;
 }
 
-#pricing-menu{
-  width: 80%;
-  position: relative;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
+#pricing-menu {
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
 
-
-  #basic{
-    width: 33%;
-    background: $white;
-    padding: 30px;
-    margin-top:75px;
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
-    border-right: 1px solid $light-grey;
-    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.15);
-
-  }
-
-  #pro{
-    width: 33%;
-    padding: 30px;
-
-    background: $white;
-    margin-top: 75px;
-    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.15);
-
-  }
-
-  #business{
-    width: 33%;
-    padding: 30px;
-
-    background: $main-blue;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
-    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.15);
-
-    margin-top:75px;
-
-  }
-}
-
-.pricing-button{
-border: 2px solid $lightest-grey;
-background-color: $white;
-color: $main-blue;
-display: inline-block;
-font-family: $main-font;
-text-decoration: none;
-text-align: center;
-border-radius: 6px;
-padding: 10px;
-width: 100%;
-
-
-&:hover, &:active{
-  background-color: $lightest-grey;
-  transition: .5s ease-in-out;
-}
-
-
-}
-
-.feature-list{
-  font-family: $main-font;
-  color: $header-grey;
-  font-size: 13px;
-  margin-bottom: 30px;
-
-  li{
-    padding-bottom: 30px;
-
-    &.lighter{
-      color: $lightest-grey;
+    #basic {
+        width: 33%;
+        background: $white;
+        padding: 30px;
+        margin-top: 75px;
+        border-top-left-radius: $border-radius;
+        border-bottom-left-radius: $border-radius;
+        border-right: 1px solid $light-grey;
+        box-shadow: $shadow;
     }
 
-    &.pro{
-      color: rgba(255, 255, 255, 0.6);
-
+    #pro {
+        width: 33%;
+        padding: 30px;
+        background: $white;
+        margin-top: 75px;
+        box-shadow: $shadow;
     }
-  }
+
+    #business {
+        width: 33%;
+        padding: 30px;
+        background: $main-blue;
+        border-top-right-radius: $border-radius;
+        border-bottom-right-radius: $border-radius;
+        box-shadow: $shadow;
+        margin-top: 75px;
+    }
 }
 
-.list{
-  display: flex;
-  flex-direction: row;
+.pricing-button {
+    border: 2px solid $lightest-grey;
+    background-color: $white;
+    color: $main-blue;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border-radius: $border-radius;
+    padding: 10px;
+    width: 100%;
+
+    &:active,
+    &:hover {
+        background-color: $lightest-grey;
+        transition: 0.5s ease-in-out;
+    }
 }
 
-.checks{
-  display: flex;
-  flex-direction: column;
-  padding: 0px 15px;
+.feature-list {
+    font-family: $main-font;
+    color: $header-grey;
+    font-size: 13px;
+    margin-bottom: 30px;
 
-  img{
-    padding-bottom: 25px;
-  }
+    li {
+        padding-bottom: 30px;
+
+        &.lighter {
+            color: $lightest-grey;
+        }
+
+        &.pro {
+            color: $faded-white;
+        }
+    }
 }
 
+.list {
+    display: flex;
+    flex-direction: row;
+}
 
-.green-button{
-  background: $green;
-  border: 2px solid $green;
-  color: $white;
-  display: inline-block;
-  font-family: $main-font;
-  text-decoration: none;
-  text-align: center;
-  border-radius: 6px;
-  padding: 10px;
-  width: 100%;
+.checks {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
 
-  &:hover, &:active{
-    background-color: #a4d888;
-    transition: .5s ease-in-out;
-  }
+    img {
+        padding-bottom: 35px;
+    }
+}
+
+.green-button {
+    background: $green;
+    border: 2px solid $green;
+    color: $white;
+    display: inline-block;
+    font-family: $main-font;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    width: 100%;
+
+    &:active,
+    &:hover {
+        background-color: $hover-green;
+        transition: 0.5s ease-in-out;
+    }
 }

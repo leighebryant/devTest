@@ -1,53 +1,37 @@
 #features {
-background-color: $white;
-display: flex;
-flex-direction: row;
-padding-top: 150px;
+    background-color: $white;
+    display: flex;
+    flex-direction: row;
+    padding-top: 150px;
 
-  #laptop-image img{
-    width: 100%;
-    padding-right: 10%;
-  }
-}
-
-#carousel{
-  width: 27%;
-  height: 200px;
-  margin-top: 75px;
-  margin-right: 40px;
-  z-index: 0;
-}
-
-.slick-next:before
-{
-    background: url('../images/grey-arrow.svg') no-repeat;
-    color:$dark-grey;
-    content: '';
-    display: block;
-    height: 28px;
-    width: 16px;
-}
-
-.learn-more{
-  margin: 25px 0px;
-    a{
-      text-decoration: none;
-      font-family: $main-font;
-      font-size: 16px;
-      color: $accent-blue;
-      font-weight: 500;
-      line-height: 16px;
-    }
-
-    .blue-arrow{
-      display: inline;
-      width: 6px;
-      margin: -1px 10px;
+    #laptop-image img {
+        width: 100%;
+        padding-right: 10%;
     }
 }
 
-.slick-prev:before, .slick-next:before {
-    background: url(images/grey-arrow.svg);
+#carousel {
+    width: 27%;
+    height: 200px;
+    margin-top: 75px;
+    margin-right: 40px;
+    z-index: 0;
+}
 
+.learn-more {
+    margin: 25px 0;
 
+    a {
+        text-decoration: none;
+        font-size: 16px;
+        color: $accent-blue;
+        font-weight: 500;
+        line-height: 16px;
+    }
+
+    .blue-arrow {
+        display: inline;
+        width: 6px;
+        margin: -1px 10px;
+    }
 }

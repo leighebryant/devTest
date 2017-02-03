@@ -1,5 +1,5 @@
 #main {
-    background-color: #ffffff;
+    background-color: $white;
     height: 935px;
     width: 85%;
     padding-top: 150px;
@@ -22,13 +22,12 @@
         width: 29%;
     }
 
-    .icon{
-      float:left;
-      margin: 30px 20px;
-
+    .icon {
+        float: left;
+        margin: 30px 20px;
     }
 
-    .icon-info{
-      margin-left: 90px;
+    .icon-info {
+        margin-left: 90px;
     }
 }

@@ -1,6 +1,6 @@
 #nav {
     background-color: $white;
-    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: $shadow;
     height: 100px;
     padding: 0 10%;
     position: fixed;
@@ -20,13 +20,13 @@
 
     a {
         color: $header-grey;
-        font-family: Roboto;
         font-size: 16px;
         line-height: 16px;
         text-align: center;
         text-decoration: none;
 
-        &:hover, &:active {
+        &:active,
+        &:hover {
             color: $hover;
         }
     }

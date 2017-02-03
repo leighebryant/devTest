@@ -57,19 +57,10 @@ table {
   margin-right: 40px;
   z-index: 0; }
 
-.slick-next:before {
-  background: url("../images/grey-arrow.svg") no-repeat;
-  color: #43484d;
-  content: '';
-  display: block;
-  height: 28px;
-  width: 16px; }
-
 .learn-more {
-  margin: 25px 0px; }
+  margin: 25px 0; }
   .learn-more a {
     text-decoration: none;
-    font-family: "Roboto", sans-serif;
     font-size: 16px;
     color: #358ed7;
     font-weight: 500;
@@ -78,9 +69,6 @@ table {
     display: inline;
     width: 6px;
     margin: -1px 10px; }
-
-.slick-prev:before, .slick-next:before {
-  background: url(images/grey-arrow.svg); }
 
 #footer {
   background-color: #545e6b;
@@ -102,17 +90,17 @@ table {
 #footer-text {
   width: 25%;
   height: auto;
-  margin: 0px 50px 20px 15px; }
+  margin: 0 50px 20px 15px; }
 
 .footer-links {
   font-family: "Roboto", sans-serif;
-  margin: 0px 15px; }
+  margin: 0 15px; }
   .footer-links .top-link {
     color: #fff;
     font-size: 17px;
     font-weight: 400; }
   .footer-links li {
-    margin: 0px 10px 20px 20px;
+    margin: 0 10px 20px 20px;
     color: rgba(255, 255, 255, 0.6);
     font-weight: 200;
     cursor: pointer; }
@@ -120,17 +108,17 @@ table {
 #language {
   display: flex;
   flex-direction: row;
-  padding: 0px 75px;
+  padding: 0 75px;
   width: 26%; }
   #language img {
     height: 15px;
     margin: 5px; }
   #language #triangle {
     height: 5px;
-    margin: 10px 10px; }
+    margin: 10px; }
 
 #main {
-  background-color: #ffffff;
+  background-color: #fff;
   height: 935px;
   width: 85%;
   padding-top: 150px;
@@ -161,7 +149,6 @@ table {
   text-align: center; }
 
 #bottom-header {
-  font-family: "Roboto", sans-serif;
   color: #fff;
   font-size: 52px;
   font-weight: 300;
@@ -169,7 +156,6 @@ table {
   padding-top: 200px; }
 
 #bottom-text {
-  font-family: "Roboto", sans-serif;
   color: rgba(255, 255, 255, 0.6);
   font-size: 22px;
   font-weight: 300;
@@ -178,7 +164,6 @@ table {
 
 #try-it {
   color: #fff;
-  font-family: "Roboto", sans-serif;
   text-decoration: none;
   padding: 20px 30px;
   width: 180px;
@@ -189,9 +174,9 @@ table {
   cursor: pointer;
   margin: 3px 50px;
   font-size: 16px; }
-  #try-it:hover, #try-it:active {
+  #try-it:active, #try-it:hover {
     background-color: #a4d888;
-    transition: .5s ease-in-out; }
+    transition: 0.5s ease-in-out; }
 
 #company-list {
   margin: 0 auto;
@@ -208,7 +193,7 @@ table {
 
 #nav {
   background-color: #fff;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.15);
   height: 100px;
   padding: 0 10%;
   position: fixed;
@@ -223,12 +208,11 @@ table {
     padding: 25px; }
   #nav a {
     color: #86939e;
-    font-family: Roboto;
     font-size: 16px;
     line-height: 16px;
     text-align: center;
     text-decoration: none; }
-    #nav a:hover, #nav a:active {
+    #nav a:active, #nav a:hover {
       color: #6b7a86; }
 
 #pricing {
@@ -239,7 +223,7 @@ table {
 
 h1.menu {
   padding-bottom: 5px;
-  margin-top: 0px; }
+  margin-top: 0; }
 
 .blue {
   color: #fff; }
@@ -258,20 +242,20 @@ h1.menu {
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
     border-right: 1px solid #f9f9f9;
-    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.15); }
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.15); }
   #pricing-menu #pro {
     width: 33%;
     padding: 30px;
     background: #fff;
     margin-top: 75px;
-    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.15); }
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.15); }
   #pricing-menu #business {
     width: 33%;
     padding: 30px;
     background: #39add1;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
-    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.15);
     margin-top: 75px; }
 
 .pricing-button {
@@ -279,15 +263,14 @@ h1.menu {
   background-color: #fff;
   color: #39add1;
   display: inline-block;
-  font-family: "Roboto", sans-serif;
   text-decoration: none;
   text-align: center;
   border-radius: 6px;
   padding: 10px;
   width: 100%; }
-  .pricing-button:hover, .pricing-button:active {
+  .pricing-button:active, .pricing-button:hover {
     background-color: #dfe7ed;
-    transition: .5s ease-in-out; }
+    transition: 0.5s ease-in-out; }
 
 .feature-list {
   font-family: "Roboto", sans-serif;
@@ -308,9 +291,9 @@ h1.menu {
 .checks {
   display: flex;
   flex-direction: column;
-  padding: 0px 15px; }
+  padding: 0 15px; }
   .checks img {
-    padding-bottom: 25px; }
+    padding-bottom: 35px; }
 
 .green-button {
   background: #7dc855;
@@ -323,15 +306,24 @@ h1.menu {
   border-radius: 6px;
   padding: 10px;
   width: 100%; }
-  .green-button:hover, .green-button:active {
+  .green-button:active, .green-button:hover {
     background-color: #a4d888;
-    transition: .5s ease-in-out; }
+    transition: 0.5s ease-in-out; }
 
 * {
   box-sizing: border-box; }
 
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Roboto", sans-serif; }
+
 h1 {
-  font-family: "Roboto", sans-serif;
   color: #43484d;
   font-size: 52px;
   font-weight: 300;
@@ -343,7 +335,6 @@ h1 {
     color: #fff; }
 
 h2 {
-  font-family: "Roboto", sans-serif;
   color: #43484d;
   font-size: 32px;
   font-weight: 300;
@@ -352,17 +343,15 @@ h2 {
   padding-bottom: 20px; }
 
 h3 {
-  font-family: "Roboto", sans-serif;
   color: #5e6977;
   font-size: 22px;
   font-weight: 300;
   line-height: 32px;
   max-width: 660px;
-  margin: 0px auto;
+  margin: 0 auto;
   text-align: center; }
 
 h4 {
-  font-family: "Roboto", sans-serif;
   color: #86939e;
   font-size: 14px;
   font-weight: 400;
@@ -377,8 +366,7 @@ h5 {
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
-  font-family: "Roboto", sans-serif;
-  padding: 10px 0px;
+  padding: 10px 0;
   text-align: left; }
 
 h6 {
@@ -392,11 +380,10 @@ h6 {
   text-transform: uppercase;
   letter-spacing: 2px; }
   h6.pro {
-    color: white; }
+    color: #fff; }
 
 p {
   color: #86939e;
-  font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 25px; }

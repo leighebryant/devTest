@@ -1,11 +1,20 @@
+//Colors
+
 $main-blue: #39add1;
 $accent-blue: #358ed7;
 $green: #7dc855;
-$grey: #5e6977;
+$hover-green: #a4d888;
 $dark-grey: #43484d;
+$grey: #5e6977;
 $header-grey: #86939e;
 $light-grey: #f9f9f9;
 $lightest-grey: #dfe7ed;
 $white: #fff;
+$faded-white:rgba(255, 255, 255, 0.6);
+
+//Styling
+
 $main-font : 'Roboto', sans-serif;
 $hover: darken($header-grey, 10%);
+$border-radius: 6px;
+$shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.15);

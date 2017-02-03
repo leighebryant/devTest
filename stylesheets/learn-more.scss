@@ -1,72 +1,59 @@
-
-#learn-more{
-background-color: #5e6977;
-width: 100%;
-margin-top: -75px;
-text-align: center;
-
+#learn-more {
+    background-color: $grey;
+    width: 100%;
+    margin-top: -75px;
+    text-align: center;
 }
 
-
-#bottom-header{
-font-family: $main-font;
-color: $white;
-font-size: 52px;
-font-weight: 300;
-line-height: 58px;
-padding-top: 200px;
+#bottom-header {
+    color: $white;
+    font-size: 52px;
+    font-weight: 300;
+    line-height: 58px;
+    padding-top: 200px;
 }
 
-#bottom-text{
-font-family: $main-font;
-color: rgba(255, 255, 255, 0.6);
-font-size: 22px;
-font-weight: 300;
-line-height: 32px;
-margin-bottom: 60px;
+#bottom-text {
+    color: $faded-white;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 32px;
+    margin-bottom: 60px;
 }
 
-#button-bottom{
+#try-it {
+    color: $white;
+    text-decoration: none;
+    padding: 20px 30px;
+    width: 180px;
+    height: 60px;
+    border-radius: 6px;
+    border: none;
+    background-color: $green;
+    cursor: pointer;
+    margin: 3px 50px;
+    font-size: 16px;
 
-  // padding: 50px 0px;
+    &:active,
+    &:hover {
+        background-color: $hover-green;
+        transition: 0.5s ease-in-out;
+    }
 }
 
-#try-it{
-  color: $white;
-  font-family: $main-font;
-  text-decoration: none;
-  padding: 20px 30px;
-  width: 180px;
-  height: 60px;
-  border-radius: 6px;
-  border: none;
-  background-color: $green;
-  cursor: pointer;
-  margin: 3px 50px;
-  font-size: 16px;
+#company-list {
+    margin: 0 auto;
+    width: 90%;
+    padding-bottom: 100px;
 
-  &:hover, &:active{
-    background-color: #a4d888;
-    transition: .5s ease-in-out;
-  }
-
+    img {
+        margin: 20px;
+        height: 30px;
+    }
 }
 
-
-#company-list{
-  margin: 0 auto;
-  width: 90%;
-  padding-bottom: 100px;
-
-  img{
-    margin: 20px;
-    height: 30px;
-  }
-}
-
-.center.bottom{
-  margin-top: 100px;
-  margin-bottom: 20px;
-  color: rgba(255, 255, 255, 0.6);
-
+.center.bottom {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: $faded-white;
 }

@@ -21,6 +21,10 @@ line-height: 58px;
 margin-top: 50px;
 padding-bottom: 20px;
 text-align: center;
+
+  &.pro{
+    color: $white;
+  }
 }
 
 h2{
@@ -53,6 +57,11 @@ font-weight: 400;
 line-height: 14px;
 text-align: center;
 padding-bottom: 20px;
+
+    &.pro{
+      color: rgba(255, 255, 255, 0.6);
+
+    }
 }
 
 h5{
@@ -75,7 +84,12 @@ line-height: 14px;
 text-align: center;
 text-transform: uppercase;
 letter-spacing: 2px;
+
+&.pro{
+  color: white;
 }
+}
+
 
 p{
 color: $header-grey;
@@ -90,11 +104,20 @@ line-height: 25px;
 
   &.center{
     text-align: center;
+
+    &.pro{
+      color: rgba(255, 255, 255, 0.6);
+    }
   }
+
+
 }
 
 hr{
-  width: 90%;
   border: .5px solid $light-grey;
   margin: 20px;
+
+  &.pro{
+    border: .5px solid rgba(255, 255, 255, 0.2);
+  }
 }

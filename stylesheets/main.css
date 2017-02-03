@@ -45,10 +45,9 @@ table {
   background-color: #fff;
   display: flex;
   flex-direction: row;
-  height: 550px;
   padding-top: 150px; }
   #features #laptop-image img {
-    width: 90%;
+    width: 100%;
     padding-right: 10%; }
 
 #carousel {
@@ -242,6 +241,9 @@ h1.menu {
   padding-bottom: 5px;
   margin-top: 0px; }
 
+.blue {
+  color: #fff; }
+
 #pricing-menu {
   width: 80%;
   position: relative;
@@ -273,15 +275,16 @@ h1.menu {
     margin-top: 75px; }
 
 .pricing-button {
-  border-radius: 6px;
   border: 2px solid #dfe7ed;
   background-color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 500;
   color: #39add1;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
-  padding: 10px 100px; }
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+  width: 100%; }
   .pricing-button:hover, .pricing-button:active {
     background-color: #dfe7ed;
     transition: .5s ease-in-out; }
@@ -289,12 +292,14 @@ h1.menu {
 .feature-list {
   font-family: "Roboto", sans-serif;
   color: #86939e;
-  font-size: 12px;
-  margin-bottom: 50px; }
+  font-size: 13px;
+  margin-bottom: 30px; }
   .feature-list li {
-    padding-bottom: 25px; }
+    padding-bottom: 30px; }
     .feature-list li.lighter {
       color: #dfe7ed; }
+    .feature-list li.pro {
+      color: rgba(255, 255, 255, 0.6); }
 
 .list {
   display: flex;
@@ -306,6 +311,21 @@ h1.menu {
   padding: 0px 15px; }
   .checks img {
     padding-bottom: 25px; }
+
+.green-button {
+  background: #7dc855;
+  border: 2px solid #7dc855;
+  color: #fff;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+  width: 100%; }
+  .green-button:hover, .green-button:active {
+    background-color: #a4d888;
+    transition: .5s ease-in-out; }
 
 * {
   box-sizing: border-box; }
@@ -319,6 +339,8 @@ h1 {
   margin-top: 50px;
   padding-bottom: 20px;
   text-align: center; }
+  h1.pro {
+    color: #fff; }
 
 h2 {
   font-family: "Roboto", sans-serif;
@@ -347,6 +369,8 @@ h4 {
   line-height: 14px;
   text-align: center;
   padding-bottom: 20px; }
+  h4.pro {
+    color: rgba(255, 255, 255, 0.6); }
 
 h5 {
   color: #43484d;
@@ -367,6 +391,8 @@ h6 {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px; }
+  h6.pro {
+    color: white; }
 
 p {
   color: #86939e;
@@ -378,10 +404,13 @@ p {
     text-align: left; }
   p.center {
     text-align: center; }
+    p.center.pro {
+      color: rgba(255, 255, 255, 0.6); }
 
 hr {
-  width: 90%;
   border: 0.5px solid #f9f9f9;
   margin: 20px; }
+  hr.pro {
+    border: 0.5px solid rgba(255, 255, 255, 0.2); }
 
 /*# sourceMappingURL=main.css.map */

@@ -44,6 +44,30 @@ width: 100%;
   }
 }
 
+.pricing-button{
+border-radius: 6px;
+border: 2px solid $lightest-grey;
+background-color: $white;
+font-family: $main-font;
+font-size: 14px;
+font-weight: 500;
+color: $main-blue;
+margin: 5%;
+width: 90%;
+height: 42px;
+}
 
-.upper-pricing{
+.feature-list{
+  font-family: $main-font;
+  padding: 0% 10%;
+  width: 90%;
+  font-size: 14px;
+
+  li{
+    padding-bottom: 25px;
+  }
+}
+
+.check{
+  margin: 0px 10px;
 }

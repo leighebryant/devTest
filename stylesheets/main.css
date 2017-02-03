@@ -256,6 +256,29 @@ table {
     box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.15);
     margin-top: 75px; }
 
+.pricing-button {
+  border-radius: 6px;
+  border: 2px solid #dfe7ed;
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #39add1;
+  margin: 5%;
+  width: 90%;
+  height: 42px; }
+
+.feature-list {
+  font-family: "Roboto", sans-serif;
+  padding: 0% 10%;
+  width: 90%;
+  font-size: 14px; }
+  .feature-list li {
+    padding-bottom: 25px; }
+
+.check {
+  margin: 0px 10px; }
+
 * {
   box-sizing: border-box; }
 

@@ -42,7 +42,7 @@ table {
   border-spacing: 0; }
 
 #features {
-  background-color: #ffffff;
+  background-color: #fff;
   display: flex;
   flex-direction: row;
   height: 500px;
@@ -81,9 +81,49 @@ table {
   width: 16px; }
 
 #footer {
-  background-color: #5e6977;
+  background-color: #545e6b;
   width: 100%;
-  height: 648px; }
+  height: 285px;
+  padding: 50px 80px;
+  display: flex; }
+
+#footer-logo {
+  width: 30%;
+  height: 70px; }
+
+#logo {
+  width: 68px;
+  height: 68px;
+  float: left;
+  margin: 5px; }
+
+#footer-text {
+  width: 25%;
+  height: auto;
+  margin: 0px 50px 20px 15px; }
+
+.footer-links {
+  font-family: "Roboto", sans-serif;
+  margin: 0px 15px; }
+  .footer-links .top-link {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400; }
+  .footer-links li {
+    margin: 0px 10px 20px 20px;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 200; }
+
+#language {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 75px; }
+  #language img {
+    height: 15px;
+    margin: 5px; }
+  #language #triangle {
+    height: 5px;
+    margin: 10px 10px; }
 
 #main {
   background-color: #ffffff;
@@ -110,11 +150,17 @@ table {
   #info-boxes .icon-info {
     margin-left: 90px; }
 
+#learn-more {
+  background-color: #5e6977;
+  width: 100%;
+  height: 648px;
+  margin-top: -75px; }
+
 #nav {
   background-color: #fff;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
   height: 100px;
-  padding: 0 120px;
+  padding: 0 10%;
   position: fixed;
   top: 0;
   width: 100%;
@@ -136,10 +182,38 @@ table {
       color: #6b7a86; }
 
 #pricing {
-  background-color: #dfe7ed;
+  background-color: #f9f9f9;
   height: 900px;
   padding-top: 70px;
   width: 100%; }
+
+#pricing-menu {
+  height: 690px;
+  width: 80%;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row; }
+  #pricing-menu #basic {
+    width: 33%;
+    background: #fff;
+    margin-top: 75px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-right: 1px solid #f9f9f9;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.15); }
+  #pricing-menu #pro {
+    width: 33%;
+    background: #fff;
+    margin-top: 75px;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.15); }
+  #pricing-menu #business {
+    width: 33%;
+    background: #39add1;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 75px; }
 
 * {
   box-sizing: border-box; }
@@ -182,6 +256,17 @@ h5 {
   padding: 10px 0px;
   text-align: left; }
 
+h6 {
+  font-family: Roboto;
+  color: #358ed7;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+
 p {
   color: #86939e;
   font-family: "Roboto", sans-serif;
@@ -189,5 +274,9 @@ p {
   font-weight: 400;
   line-height: 25px;
   text-align: left; }
+
+hr {
+  width: 90%;
+  border: 0.5px solid #f9f9f9; }
 
 /*# sourceMappingURL=main.css.map */

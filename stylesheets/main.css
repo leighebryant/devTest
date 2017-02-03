@@ -117,7 +117,8 @@ table {
 #language {
   display: flex;
   flex-direction: row;
-  padding: 0px 75px; }
+  padding: 0px 75px;
+  width: 26%; }
   #language img {
     height: 15px;
     margin: 5px; }
@@ -153,7 +154,6 @@ table {
 #learn-more {
   background-color: #5e6977;
   width: 100%;
-  height: 700px;
   margin-top: -75px; }
 
 #bottom-header {
@@ -189,10 +189,13 @@ table {
   margin: 50px 0px; }
 
 #company-list {
+  display: inline-block;
+  height: 30px;
   margin: 0 auto;
-  width: 80%; }
+  width: 80%;
+  padding-bottom: 100px; }
   #company-list img {
-    padding: 20px; }
+    margin: 20px; }
 
 #nav {
   background-color: #fff;

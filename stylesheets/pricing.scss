@@ -5,6 +5,11 @@ padding-top: 70px;
 width: 100%;
 }
 
+h1.menu{
+  padding-bottom: 5px;
+  margin-top: 0px;
+}
+
 #pricing-menu{
   width: 80%;
   position: relative;
@@ -12,9 +17,11 @@ width: 100%;
   display: flex;
   flex-direction: row;
 
+
   #basic{
     width: 33%;
     background: $white;
+    padding: 30px;
     margin-top:75px;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
@@ -25,6 +32,8 @@ width: 100%;
 
   #pro{
     width: 33%;
+    padding: 30px;
+
     background: $white;
     margin-top: 75px;
     box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.15);
@@ -33,6 +42,8 @@ width: 100%;
 
   #business{
     width: 33%;
+    padding: 30px;
+
     background: $main-blue;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
@@ -51,26 +62,43 @@ font-family: $main-font;
 font-size: 14px;
 font-weight: 500;
 color: $main-blue;
-margin: 5%;
-width: 90%;
-height: 42px;
+text-decoration: none;
+padding: 10px 100px;
+
+&:hover, &:active{
+  background-color: $lightest-grey;
+  transition: .5s ease-in-out;
+}
+
+
 }
 
 .feature-list{
   font-family: $main-font;
-  padding: 0% 10%;
-  width: 90%;
-  font-size: 14px;
+  color: $header-grey;
+  font-size: 12px;
+  margin-bottom: 50px;
 
   li{
     padding-bottom: 25px;
 
-    ::before{
-      img: src('images/check.svg');
+    &.lighter{
+      color: $lightest-grey;
     }
   }
 }
 
-.check{
-  margin: 0px 10px;
+.list{
+  display: flex;
+  flex-direction: row;
+}
+
+.checks{
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15px;
+
+  img{
+    padding-bottom: 25px;
+  }
 }

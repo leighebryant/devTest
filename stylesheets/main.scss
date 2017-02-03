@@ -120,28 +120,30 @@ hr {
         border: 0.5px solid rgba(255, 255, 255, 0.2);
     }
 }
-
-@media (max-width: 768px){
-  p{
-    font-size: 16px;
-  }
+@media (max-width: 768px) {
+    p {
+        font-size: 16px;
+    }
 }
+@media (max-width: 320px) {
+    h1 {
+        font-size: 32px;
+        line-height: 32px;
+    }
 
-@media (max-width: 320px){
-  h1{
-    font-size:32px;
-    line-height: 32px;
-  }
-  h2{
-    font-size:25px;
-  }
-  h3{
-    font-size:18px;
-  }
-  h5{
-    font-size:16px;
-  }
-  p{
-    font-size: 14px;
-  }
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+    }
 }

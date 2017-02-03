@@ -57,23 +57,22 @@
     margin-bottom: 20px;
     color: $faded-white;
 }
+@media (max-width: 830px) {
+    #bottom-header {
+        padding-top: 75px;
+    }
 
-
-@media (max-width: 830px){
-  #bottom-header{
-    padding-top: 75px;
-  }
-  .center.bottom{
-    margin-top: 50px;
-  }
+    .center.bottom {
+        margin-top: 50px;
+    }
 }
+@media (max-width: 320px) {
+    #bottom-header {
+        font-size: 32px;
+        line-height: 32px;
+    }
 
-@media (max-width: 320px){
-  #bottom-header{
-    font-size: 32px;
-    line-height: 32px;
-  }
-  #bottom-text{
-    font-size: 18px;
-  }
+    #bottom-text {
+        font-size: 18px;
+    }
 }

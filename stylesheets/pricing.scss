@@ -65,6 +65,10 @@ height: 42px;
 
   li{
     padding-bottom: 25px;
+
+    ::before{
+      img: src('images/check.svg');
+    }
   }
 }
 

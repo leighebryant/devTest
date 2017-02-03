@@ -19,6 +19,16 @@ padding-top: 150px;
   z-index: 0;
 }
 
+.slick-next:before
+{
+    background: url('../images/grey-arrow.svg') no-repeat;
+    color:$dark-grey;
+    content: '';
+    display: block;
+    height: 28px;
+    width: 16px;
+}
+
 .learn-more{
   margin: 25px 0px;
     a{
@@ -39,10 +49,6 @@ padding-top: 150px;
 
 .slick-prev:before, .slick-next:before {
     background: url(images/grey-arrow.svg);
-    color:$dark-grey;
-    content: '';
-    display: block;
-    height: 28px;
-    width: 16px;
+
 
 }

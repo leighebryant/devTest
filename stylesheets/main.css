@@ -58,6 +58,14 @@ table {
   margin-right: 40px;
   z-index: 0; }
 
+.slick-next:before {
+  background: url("../images/grey-arrow.svg") no-repeat;
+  color: #43484d;
+  content: '';
+  display: block;
+  height: 28px;
+  width: 16px; }
+
 .learn-more {
   margin: 25px 0px; }
   .learn-more a {
@@ -73,12 +81,7 @@ table {
     margin: -1px 10px; }
 
 .slick-prev:before, .slick-next:before {
-  background: url(images/grey-arrow.svg);
-  color: #43484d;
-  content: '';
-  display: block;
-  height: 28px;
-  width: 16px; }
+  background: url(images/grey-arrow.svg); }
 
 #footer {
   background-color: #545e6b;
@@ -155,7 +158,8 @@ table {
 #learn-more {
   background-color: #5e6977;
   width: 100%;
-  margin-top: -75px; }
+  margin-top: -75px;
+  text-align: center; }
 
 #bottom-header {
   font-family: "Roboto", sans-serif;
@@ -163,7 +167,6 @@ table {
   font-size: 52px;
   font-weight: 300;
   line-height: 58px;
-  text-align: center;
   padding-top: 200px; }
 
 #bottom-text {
@@ -172,32 +175,37 @@ table {
   font-size: 22px;
   font-weight: 300;
   line-height: 32px;
-  text-align: center; }
-
-#button-bottom {
-  margin: 0 auto;
-  width: 180px; }
+  margin-bottom: 60px; }
 
 #try-it {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  padding: 20px 30px;
+  width: 180px;
+  height: 60px;
   border-radius: 6px;
   border: none;
   background-color: #7dc855;
   cursor: pointer;
-  width: 180px;
-  height: 60px;
-  color: #fff;
-  font-size: 16px;
-  text-align: center;
-  margin: 50px 0px; }
+  margin: 3px 50px;
+  font-size: 16px; }
+  #try-it:hover, #try-it:active {
+    background-color: #a4d888;
+    transition: .5s ease-in-out; }
 
 #company-list {
-  display: inline-block;
-  height: 30px;
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
   padding-bottom: 100px; }
   #company-list img {
-    margin: 20px; }
+    margin: 20px;
+    height: 30px; }
+
+.center.bottom {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.6); }
 
 #nav {
   background-color: #fff;
@@ -231,7 +239,6 @@ table {
   width: 100%; }
 
 #pricing-menu {
-  height: 690px;
   width: 80%;
   position: relative;
   margin: 0 auto;

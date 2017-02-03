@@ -2,6 +2,52 @@
 #learn-more{
 background-color: #5e6977;
 width: 100%;
-height: 648px;
+height: 700px;
 margin-top: -75px;
+}
+
+
+#bottom-header{
+font-family: $main-font;
+color: $white;
+font-size: 52px;
+font-weight: 300;
+line-height: 58px;
+text-align: center;
+padding-top: 200px;
+}
+
+#bottom-text{
+font-family: $main-font;
+color: rgba(255, 255, 255, 0.6);
+font-size: 22px;
+font-weight: 300;
+line-height: 32px;
+text-align: center;
+}
+
+#button-bottom{
+  margin: 0 auto;
+  width: 180px;
+}
+
+#try-it{
+border-radius: 6px;
+border: none;
+background-color: $green;
+width: 180px;
+height: 60px;
+color: $white;
+font-size: 16px;
+text-align: center;
+margin: 50px 0px;
+}
+
+#company-list{
+  margin: 0 auto;
+  width: 80%;
+
+  img{
+    padding: 20px;
+  }
 }

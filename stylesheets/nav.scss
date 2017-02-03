@@ -92,8 +92,8 @@
     float: left;
     box-shadow: $shadow;
     background-color: $white;
-    height: 100px;
-    padding: 35px 10%;
+    height: 50px;
+    padding: 10px 10%;
     position: fixed;
     top: 0;
     width: 100%;
@@ -113,5 +113,10 @@
 @media (max-width: 575px){
   .mobile-menu{
     width: 50%;
+  }
+}
+@media (max-width: 320px){
+  .mobile-menu{
+    width: 100%;
   }
 }

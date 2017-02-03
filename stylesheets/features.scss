@@ -46,3 +46,15 @@
     margin: 5% 15%;
   }
 }
+
+@media (max-width: 768px){
+  #features{
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 320px){
+  #features{
+    padding-bottom: 50px;
+  }
+}

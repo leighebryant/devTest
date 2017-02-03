@@ -58,6 +58,21 @@
     }
 }
 
-@media (max-width: 1024px){
 
+@media (max-width: 1024px){
+  .footer-links{
+    display: none;
+  }
+}
+
+@media (max-width: 320px){
+  #language{
+    display: none;
+  }
+  #footer{
+    padding: 10px;
+  }
+  #footer-text{
+    width: 80%;
+  }
 }

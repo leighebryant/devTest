@@ -77,6 +77,12 @@ table {
   #carousel {
     width: 70%;
     margin: 5% 15%; } }
+@media (max-width: 768px) {
+  #features {
+    padding-top: 50px; } }
+@media (max-width: 320px) {
+  #features {
+    padding-bottom: 50px; } }
 #footer {
   background-color: #545e6b;
   width: 100%;
@@ -123,9 +129,20 @@ table {
     height: 5px;
     margin: 10px; }
 
+@media (max-width: 1024px) {
+  .footer-links {
+    display: none; } }
+@media (max-width: 320px) {
+  #language {
+    display: none; }
+
+  #footer {
+    padding: 10px; }
+
+  #footer-text {
+    width: 80%; } }
 #main {
   background-color: #fff;
-  height: 935px;
   width: 85%;
   padding-top: 150px;
   text-align: center;
@@ -154,6 +171,16 @@ table {
     #info-boxes .info-box {
       width: 90%;
       margin: 0 auto; } }
+@media (max-width: 768px) {
+  #main {
+    padding-top: 50px; } }
+@media (max-width: 320px) {
+  #main-image {
+    margin: 10px 0; }
+
+  #info-boxes .info-box {
+    padding: 10px 0;
+    width: 100%; } }
 #learn-more {
   background-color: #5e6977;
   width: 100%;
@@ -209,6 +236,13 @@ table {
 
   .center.bottom {
     margin-top: 50px; } }
+@media (max-width: 320px) {
+  #bottom-header {
+    font-size: 32px;
+    line-height: 32px; }
+
+  #bottom-text {
+    font-size: 18px; } }
 #nav {
   background-color: #fff;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.15);
@@ -284,8 +318,8 @@ table {
     float: left;
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.15);
     background-color: #fff;
-    height: 100px;
-    padding: 35px 10%;
+    height: 50px;
+    padding: 10px 10%;
     position: fixed;
     top: 0;
     width: 100%;
@@ -300,6 +334,9 @@ table {
 @media (max-width: 575px) {
   .mobile-menu {
     width: 50%; } }
+@media (max-width: 320px) {
+  .mobile-menu {
+    width: 100%; } }
 #pricing {
   background-color: #f9f9f9;
   height: 900px;
@@ -418,6 +455,20 @@ h1.menu {
   .list {
     width: 80%;
     margin: 0 auto; } }
+@media (max-width: 768px) {
+  .feature-list {
+    font-size: 15px; }
+
+  #pricing-menu {
+    margin-top: 25px; } }
+@media (max-width: 320px) {
+  #pricing {
+    padding-top: 30px; }
+
+  #pricing-menu #basic,
+  #pricing-menu #business,
+  #pricing-menu #pro {
+    padding: 15px; } }
 * {
   box-sizing: border-box; }
 
@@ -507,5 +558,25 @@ hr {
   margin: 20px; }
   hr.pro {
     border: 0.5px solid rgba(255, 255, 255, 0.2); }
+
+@media (max-width: 768px) {
+  p {
+    font-size: 16px; } }
+@media (max-width: 320px) {
+  h1 {
+    font-size: 32px;
+    line-height: 32px; }
+
+  h2 {
+    font-size: 25px; }
+
+  h3 {
+    font-size: 18px; }
+
+  h5 {
+    font-size: 16px; }
+
+  p {
+    font-size: 14px; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,6 +1,5 @@
 #main {
     background-color: $white;
-    height: 935px;
     width: 85%;
     padding-top: 150px;
     text-align: center;
@@ -15,7 +14,6 @@
 #info-boxes {
     display: flex;
     flex-direction: row;
-
 
     .info-box {
         height: 100px;
@@ -32,15 +30,30 @@
         margin-left: 90px;
     }
 }
+@media (max-width: 1024px) {
+    #info-boxes {
+        flex-direction: column;
 
-@media (max-width: 1024px){
-
-  #info-boxes{
-    flex-direction: column;
-
-    .info-box{
-      width: 90%;
-      margin: 0 auto;
+        .info-box {
+            width: 90%;
+            margin: 0 auto;
+        }
     }
-  }
+}
+@media (max-width: 768px) {
+    #main {
+        padding-top: 50px;
+    }
+}
+@media (max-width: 320px) {
+    #main-image {
+        margin: 10px 0;
+    }
+
+    #info-boxes {
+        .info-box {
+            padding: 10px 0;
+            width: 100%;
+        }
+    }
 }

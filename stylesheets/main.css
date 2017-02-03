@@ -288,6 +288,14 @@ h3 {
   margin: 0px auto;
   text-align: center; }
 
+h4 {
+  font-family: "Roboto", sans-serif;
+  color: #86939e;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: center; }
+
 h5 {
   color: #43484d;
   font-size: 18px;
@@ -300,7 +308,7 @@ h5 {
 h6 {
   font-family: Roboto;
   color: #358ed7;
-  padding: 10px;
+  padding: 25px 10px 10px 10px;
   font-size: 14px;
   font-weight: 500;
   line-height: 14px;
@@ -321,6 +329,7 @@ p {
 
 hr {
   width: 90%;
-  border: 0.5px solid #f9f9f9; }
+  border: 0.5px solid #f9f9f9;
+  margin: 25px; }
 
 /*# sourceMappingURL=main.css.map */

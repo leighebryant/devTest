@@ -411,9 +411,15 @@ table {
     width: 25px;
     float: right;
     margin-left: 75%; } }
+@media (max-width: 768px) {
+  #hamburger {
+    margin-left: 65%; } }
 @media (max-width: 575px) {
   .mobile-menu {
-    width: 50%; } }
+    width: 50%; }
+
+  #hamburger {
+    margin-left: 50%; } }
 @media (max-width: 320px) {
   .mobile-menu {
     width: 100%; } }

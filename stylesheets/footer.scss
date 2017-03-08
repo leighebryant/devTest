@@ -62,13 +62,14 @@
         display: none;
     }
 }
-@media (max-width: 320px) {
+@media (max-width: 400px) {
     #language {
         display: none;
     }
 
     #footer {
         padding: 10px;
+        display: none;
     }
 
     #footer-text {

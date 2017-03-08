@@ -1,7 +1,7 @@
 #main {
     background-color: $white;
     width: 85%;
-    padding-top: 150px;
+    padding-top: 125px;
     text-align: center;
     margin: 0 auto;
 }
@@ -9,6 +9,7 @@
 #main-image {
     width: 100%;
     margin: 50px 0;
+    border-radius: $border-radius;
 }
 
 #info-boxes {
@@ -24,6 +25,7 @@
     .icon {
         float: left;
         margin: 30px 20px;
+        height: 48px;
     }
 
     .icon-info {
@@ -39,21 +41,28 @@
             margin: 0 auto;
         }
     }
+    #main{
+      padding-top: 60px;
+    }
 }
 @media (max-width: 768px) {
     #main {
         padding-top: 50px;
+        width: 90%;
     }
 }
-@media (max-width: 320px) {
+@media (max-width: 400px) {
+  #main{
+    width: 100%;
+  }
     #main-image {
-        margin: 10px 0;
+        margin: 20px 0;
     }
 
     #info-boxes {
         .info-box {
-            padding: 10px 0;
-            width: 100%;
+            padding: 10px 2px;
+            width: 98%;
         }
     }
 }

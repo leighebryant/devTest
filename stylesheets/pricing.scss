@@ -35,7 +35,7 @@ h1.menu {
     #pro {
         width: 33%;
         padding: 30px;
-        background: $white;
+        background: #f5f5f5;
         margin-top: 75px;
         box-shadow: $shadow;
     }
@@ -43,7 +43,7 @@ h1.menu {
     #business {
         width: 33%;
         padding: 30px;
-        background: $main-blue;
+        background: $white;
         border-top-right-radius: $border-radius;
         border-bottom-right-radius: $border-radius;
         box-shadow: $shadow;
@@ -99,7 +99,7 @@ h1.menu {
     padding: 0 15px;
 
     img {
-        padding-bottom: 35px;
+        padding-bottom: 31px;
     }
 }
 
@@ -162,13 +162,18 @@ h1.menu {
     #pricing-menu {
         margin-top: 25px;
     }
+    #pricing{
+      padding-top: 10px;
+    }
 }
-@media (max-width: 320px) {
+@media (max-width: 400px) {
     #pricing {
         padding-top: 30px;
     }
 
     #pricing-menu {
+      width: 95%;
+
         #basic,
         #business,
         #pro {

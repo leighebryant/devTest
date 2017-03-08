@@ -5,8 +5,10 @@
     padding-top: 150px;
 
     #laptop-image img {
-        width: 100%;
-        padding-right: 10%;
+        width: 90%;
+        margin-right: 40px;
+        border-top-right-radius: $border-radius;
+        border-bottom-right-radius: $border-radius;
     }
 }
 
@@ -41,17 +43,33 @@
     }
 
     #carousel {
-        width: 70%;
+        width: 75%;
         margin: 5% 15%;
     }
 }
 @media (max-width: 768px) {
     #features {
         padding-top: 50px;
+        padding-bottom: 50px;
+        #laptop-image img{
+          border-radius: $border-radius;
+          margin-left: 35px;
+          margin-right: 0px;
+        }
     }
+
 }
-@media (max-width: 320px) {
+@media (max-width: 400px) {
     #features {
         padding-bottom: 50px;
+        padding-bottom: 120px;
+
+
+        #laptop-image img{
+          border-radius: $border-radius;
+          margin-left: 0px;
+          width: 100%;
+          margin-right: 0px;
+        }
     }
 }

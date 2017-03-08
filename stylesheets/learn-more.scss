@@ -59,20 +59,34 @@
 }
 @media (max-width: 830px) {
     #bottom-header {
-        padding-top: 75px;
+        padding-top: 100px;
+        font-size: 45px;
     }
 
     .center.bottom {
         margin-top: 50px;
     }
 }
-@media (max-width: 320px) {
+@media (max-width: 400px) {
+  #learn-more{
+    padding: 40px;
+  }
     #bottom-header {
         font-size: 32px;
         line-height: 32px;
+        padding-top: 50px;
     }
 
     #bottom-text {
         font-size: 18px;
     }
+    #company-list{
+      padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+#try-it{
+  margin: 0px;
+}
 }
